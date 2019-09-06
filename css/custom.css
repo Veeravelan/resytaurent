@@ -1,0 +1,121 @@
+﻿.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+span.rounded {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50% !important;
+    line-height: 23px;
+    font-size: 11px;
+}
+
+.dineIn, takeAway, .english, .bahasa {
+    min-width: 130px;
+    text-align: center;
+}
+
+.chooseLanguage {
+    display: none;
+}
+
+.popup {
+    max-width: 750px;
+}
+
+.customize_btn, .add_to_cart_btn, .change_choice {
+    padding: 3px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.add_to_cart_btn {
+    margin-left: 20px;
+}
+
+.choice_items {
+    display: none;
+    position: relative;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+}
+
+    .choice_items:before {
+        display: block;
+        clear: both;
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 20px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #ccc;
+    }
+/*CSS overrides*/
+.main-banner-2 {
+    padding: 0 15px;
+    position: relative;
+}
+
+.get-started-section a.button-w3ls.active {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.eat-take-section, .language-section, .payment-type-section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    .get-started-section .card, .eat-take-section .card, .language-section .card, .payment-type-section .card {
+        background-color: transparent !important;
+    }
+
+.main-banner-2 .card-body {
+    padding-bottom: 5px;
+}
+
+    .main-banner-2 .card-body a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 15px;
+    }
+/*CSS overrides*/
+
